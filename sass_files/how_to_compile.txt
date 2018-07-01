@@ -1,0 +1,15 @@
+// コマンドラインを起動
+[windows] cmd
+
+// Sassのファイルがあるディレクトリに移動
+cd C:\Users\瑛二\Desktop\sass-test-project
+
+// コンパイル
+gulp sass
+
+-> cssディレクトリにファイルを作成or更新
+
+// 自動コンパイル
+gulp sass: watch
+
+-> sassを保存すると自動でcssに反映する
